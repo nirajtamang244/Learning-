@@ -1,0 +1,6 @@
+abc= open("myfile.txt","w")
+abc.write("Name= Niraj , age= 21\n")
+abc.write("Name= Alisha, age= 21")
+abc.close()
+abc= open("myfile.txt","r")
+print(abc.read())
